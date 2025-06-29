@@ -43,7 +43,7 @@ npm start
 
 ## Webhook Görüntüsü
 
-![Webhook Preview](images/image.png)
+![Webhook Preview](images/image.PNG)
 
 ## Durum
 
