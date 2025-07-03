@@ -4,7 +4,7 @@
 | ⭐ Stars | 🎁 Özellik |
 |----------|------------|
 | **10** | 📱 Telegram bot entegrasyonu ile log alma |
-| **20** | 🛡️ VirusTotal'da 0/70 çıkan virüs algılamayan builder |
+| **15** | 🛡️ VirusTotal'da 0/70 çıkan virüs algılamayan builder |
 
 SonOyuncu client uygulamasından kullanıcı bilgilerini extract eden Node.js aracı.
 
