@@ -1,11 +1,5 @@
 # 🕵️‍♂️ SonOyuncu Stealer
 
-## 🎯 Star Goals
-| ⭐ Stars | 🎁 Feature |
-|----------|------------|
-| **10** | 📱 Log retrieval with Telegram bot integration |
-| **15** | 🛡️ VirusTotal 0/70 detection-free builder |
-
 Node.js tool for extracting user credentials from SonOyuncu client application.
 
 ## 📦 Installation
@@ -60,3 +54,4 @@ Any illegal use of this tool is strictly prohibited.
 ---
 
 ⚡ **SonOyuncu Stealer** - Developed by Fatih1963
+
