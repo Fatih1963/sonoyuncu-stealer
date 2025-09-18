@@ -1,12 +1,6 @@
 # 🕵️‍♂️ SonOyuncu Stealer
 
-## 🎯 Star Hedefleri
-| ⭐ Stars | 🎁 Özellik |
-|----------|------------|
-| **10** | 📱 Telegram bot entegrasyonu ile log alma |
-| **15** | 🛡️ VirusTotal'da 0/70 çıkan virüs algılamayan builder |
-
-SonOyuncu client uygulamasından kullanıcı bilgilerini extract eden Node.js aracı.
+SonOyuncu client uygulamasından kullanıcı bilgilerini çıkartan Node.js aracı.
 
 ## 📦 Kurulum
 **Node.js indirin**: https://nodejs.org/en/download (20.x gerekli)  
@@ -59,3 +53,4 @@ Bu aracın yasadışı kullanımı kesinlikle yasaktır.
 ---
 
 ⚡ **SonOyuncu Stealer** - Fatih1963 tarafından geliştirildi
+
