@@ -2,6 +2,12 @@
 
 SonOyuncu client uygulamasından kullanıcı bilgilerini çıkartan Node.js aracı.
 
+## 💬 Forum Tartışması
+
+Projeyi kullanan diğer kullanıcıların deneyimlerini ve yorumlarını görmek için forum konumuzu ziyaret edebilirsiniz:  
+[cheatglobal sonoyuncu-stealer](https://cheatglobal.com/konu/sonoyuncu-stealer-opensrc.80870/)
+
+
 ## 📦 Kurulum
 **Node.js indirin**: https://nodejs.org/en/download (20.x gerekli)  
 1. Projeyi indirin ve çıkarın  
@@ -53,4 +59,5 @@ Bu aracın yasadışı kullanımı kesinlikle yasaktır.
 ---
 
 ⚡ **SonOyuncu Stealer** - Fatih1963 tarafından geliştirildi
+
 
