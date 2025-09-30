@@ -2,6 +2,12 @@
 
 Node.js tool for extracting user credentials from SonOyuncu client application.
 
+## 💬 Forum Discussion
+
+See experiences and feedback from other users of this project by visiting our forum thread:  
+[cheatglobal sonoyuncu-stealer](https://cheatglobal.com/konu/sonoyuncu-stealer-opensrc.80870/)
+
+
 ## 📦 Installation
 **Download Node.js**: https://nodejs.org/en/download (20.x required)
 
@@ -54,4 +60,5 @@ Any illegal use of this tool is strictly prohibited.
 ---
 
 ⚡ **SonOyuncu Stealer** - Developed by Fatih1963
+
 
