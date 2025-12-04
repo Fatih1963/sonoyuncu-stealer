@@ -19,7 +19,7 @@ inline DWORD GetSafeTickCount() { // GetTickCount alternative
 
 /**
  * @author: Fatih1963
- * @version: 1.0
+ * @version: 1.1
  * @date: 2025-06-23
  */
 
@@ -279,3 +279,4 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
 }
 
 NODE_API_MODULE(addon, Init)
+
