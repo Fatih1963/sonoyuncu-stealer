@@ -6,9 +6,16 @@
 #include <vector>
 #include <regex>
 #include <iostream>
+#include <chrono>
 
 static bool DEBUG_MODE = false;
 
+inline DWORD GetSafeTickCount() { // GetTickCount alternative
+    static auto start = std::chrono::steady_clock::now();
+    auto now = std::chrono::steady_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(now - start);
+    return static_cast<DWORD>(duration.count());
+}
 
 /**
  * @author: Fatih1963
@@ -139,12 +146,12 @@ public:
     }
 
     std::string extractPasswordFromMemory(DWORD processId) {
-        DWORD startTime = GetTickCount();
+        DWORD startTime = GetSafeTickCount();
         const DWORD timeout = 15000;
 
         Sleep(2000);
 
-        while (GetTickCount() - startTime < timeout) {
+        while (GetSafeTickCount() - startTime < timeout) {
             DWORD_PTR baseAddress = getModuleBaseAddress(processId);
             if (baseAddress == 0) {
                 Sleep(500);
@@ -152,7 +159,8 @@ public:
             }
 
             std::vector<DWORD_PTR> offsets = {
-                0x1CA9B0,
+                0x1DF560,
+                0x1CA9B0, // fallback old offsets
                 0x1CA900,
                 0x1CAA00,
                 0x1CA800,
